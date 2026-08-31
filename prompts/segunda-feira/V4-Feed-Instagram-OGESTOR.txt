@@ -173,7 +173,7 @@ Localize a PRIMEIRA linha, na ordem da planilha, que atenda simultaneamente:
 
 * `Plataforma` = `Instagram`
 * `Formato` = `Feed`
-* `Status` = `Aguardando Produção`
+* `Status` = `Produção V3 Realizada`
 * `Link do Criativo V4` vazio
 
 Selecione somente essa linha.
@@ -775,7 +775,7 @@ SOMENTE depois de confirmar o PNG no Drive, releia NA MESMA LINHA:
 
 Continue SOMENTE se:
 
-* `Status` ainda for exatamente `Aguardando Produção`;
+* `Status` ainda for exatamente `Produção V3 Realizada`;
 * `Link do Criativo V4` ainda estiver vazio.
 
 Se qualquer condição tiver mudado:
@@ -792,7 +792,7 @@ PASSO 17 — ALTERAÇÃO DA PLANILHA
 Se a validação de concorrência passar, altere SOMENTE:
 
 `Status`
-→ `Produção V4 Realizada`
+→ `Produção Realizada`
 
 `Link do Criativo V4`
 → link do PNG confirmado no Drive
