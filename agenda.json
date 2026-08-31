@@ -1,0 +1,21 @@
+{
+  "versao": 1,
+  "fuso_padrao": "America/Sao_Paulo",
+  "prompts": [
+    {
+      "id": "v1-feed-instagram-ogestor",
+      "nome": "V1 Feed Instagram - OGESTOR",
+      "arquivo": "prompts/segunda-feira/V1-Feed-Instagram-OGESTOR.txt",
+      "ativo": true,
+      "agendamento": {
+        "grupo": "segunda-0830",
+        "frequencia": "semanal",
+        "dias_da_semana": [
+          "segunda-feira"
+        ],
+        "horario": "08:30",
+        "fuso": "America/Sao_Paulo"
+      }
+    }
+  ]
+}
