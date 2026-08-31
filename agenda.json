@@ -31,6 +31,21 @@
         "horario": "09:30",
         "fuso": "America/Sao_Paulo"
       }
+    },
+    {
+      "id": "v3-feed-instagram-ogestor",
+      "nome": "V3 Feed Instagram - OGESTOR",
+      "arquivo": "prompts/segunda-feira/V3-Feed-Instagram-OGESTOR.txt",
+      "ativo": true,
+      "agendamento": {
+        "grupo": "segunda-1030",
+        "frequencia": "semanal",
+        "dias_da_semana": [
+          "segunda-feira"
+        ],
+        "horario": "10:30",
+        "fuso": "America/Sao_Paulo"
+      }
     }
   ]
 }
