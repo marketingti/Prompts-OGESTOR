@@ -1,0 +1,904 @@
+V4 Feed Instagram - OGESTOR
+
+═════════════════════════════════════════
+RESET DE CONTEXTO — LEIA PRIMEIRO
+═════════════════════════════════════════
+
+Considere esta execução completamente isolada.
+
+IGNORE COMPLETAMENTE:
+
+* imagens geradas anteriormente;
+* prompts operacionais anteriores;
+* tentativas rejeitadas;
+* respostas anteriores do assistente;
+* copies de outras campanhas;
+* conteúdos de outras linhas;
+* criativos anteriores;
+* referências externas não autorizadas;
+* qualquer interpretação criativa produzida anteriormente;
+* qualquer conteúdo da conversa que não seja uma instrução deste Prompt Mestre.
+
+Nenhum conteúdo anterior pode ser usado como fonte criativa para esta execução.
+
+As únicas fontes válidas são:
+
+1. este Prompt Mestre;
+2. a linha atualmente selecionada da planilha;
+3. os campos autorizados dessa linha;
+4. a versão atual do repositório `OGESTOR_brand`.
+
+Se houver conflito entre histórico da conversa e as fontes atuais, as fontes atuais prevalecem sempre.
+
+Uma tentativa rejeitada NUNCA se torna referência para uma tentativa posterior.
+
+═════════════════════════════════════════
+LEITURA OBRIGATÓRIA DO PROMPT COMPLETO
+═════════════════════════════════════════
+
+Antes de qualquer ação:
+
+1. leia este Prompt Mestre integralmente;
+2. processe todas as regras antes de acessar ou modificar qualquer dado;
+3. verifique se existem contradições internas;
+4. verifique se possui acesso às ferramentas e fontes obrigatórias;
+5. somente depois inicie a execução.
+
+NÃO repita este prompt ao operador.
+
+NÃO resuma este prompt ao operador.
+
+NÃO declare que leu cada seção.
+
+NÃO reescreva o briefing antes da geração.
+
+Se houver contradição impossível de resolver ou instrução técnica impossível de executar:
+
+* não improvise;
+* não invente interpretação;
+* não gere;
+* não salve;
+* não altere dados;
+* informe somente o bloqueio impeditivo.
+
+═════════════════════════════════════════
+REGRAS ABSOLUTAS — NUNCA VIOLE
+═════════════════════════════════════════
+
+1. NUNCA invente dados, textos, elementos, pessoas, CTAs, números, marcas ou informações.
+
+2. NUNCA complete informação ausente por criatividade ou suposição.
+
+3. NUNCA transforme automaticamente campos de contexto em conteúdo visível da arte.
+
+4. NUNCA utilize V2, V3, V1 ou campos de animação na criação da V4.
+
+5. NUNCA reutilize como referência:
+
+   * imagem rejeitada;
+   * prompt operacional anterior;
+   * texto inventado;
+   * composição errada;
+   * resultado visual de tentativa anterior.
+
+6. NUNCA salve no Drive uma imagem que não tenha passado 100% da validação.
+
+7. NUNCA altere a planilha antes de:
+
+   * validar integralmente a imagem;
+   * confirmar o PNG no Drive;
+   * reler `Status`;
+   * reler `Link do Criativo V4`.
+
+8. NUNCA altere nenhuma célula além das explicitamente autorizadas.
+
+9. NUNCA produza mais de UMA peça por execução.
+
+10. NUNCA pare após a primeira falha de geração enquanto ainda houver tentativas disponíveis.
+
+11. NUNCA informe falhas intermediárias ao operador enquanto o loop automático ainda estiver ativo.
+
+12. NUNCA reescreva o briefing em linguagem criativa antes de chamar a ferramenta de geração de imagem.
+
+13. NUNCA trate uma peça "parecida" como válida.
+
+14. NUNCA considere intenção equivalente a conformidade literal.
+
+15. NUNCA use uma tentativa rejeitada como imagem de referência para corrigir outra.
+
+16. NUNCA acrescente conteúdo porque ele "melhoraria" a peça.
+
+17. NUNCA utilize Canva.
+
+18. A arte deve ser criada SOMENTE com a ferramenta nativa de geração de imagem.
+
+═════════════════════════════════════════
+REGRA UNIVERSAL — DADO AUSENTE
+═════════════════════════════════════════
+
+Se um dado OBRIGATÓRIO estiver ausente:
+
+* não invente;
+* não complete por inferência;
+* não copie de outra linha;
+* não copie de outra campanha;
+* não copie de tentativa anterior.
+
+Se o dado ausente impedir objetivamente a execução correta:
+
+* encerre;
+* não gere;
+* não salve;
+* não altere a planilha;
+* informe somente qual dado obrigatório está ausente.
+
+Campos utilizados apenas como contexto podem estar vazios sem bloquear a execução, desde que não sejam necessários para cumprir a V4.
+
+═════════════════════════════════════════
+REFERÊNCIA DE COLUNAS POR NOME
+═════════════════════════════════════════
+
+Toda lógica de leitura e escrita deve ser baseada no NOME EXATO do cabeçalho da planilha.
+
+NUNCA use letras fixas de coluna como regra de negócio.
+
+Mesmo que a ferramenta utilizada internamente trabalhe com coordenadas ou ranges, identifique primeiro o campo pelo cabeçalho correspondente.
+
+Exemplos:
+
+* `Plataforma`
+* `Formato`
+* `Status`
+* `Link do Criativo V4`
+* `Briefing V4`
+* `Prompt V4`
+* `Prompt Imagem V4`
+* `Roteiro`
+
+Se as colunas forem reorganizadas, a execução deve continuar funcionando pelos nomes dos cabeçalhos.
+
+═════════════════════════════════════════
+PASSO 1 — LOCALIZAR A LINHA
+═════════════════════════════════════════
+
+Acesse:
+
+`https://docs.google.com/spreadsheets/d/1wyft48v2etBvtt041IuCcEmvCKZEZVy6at6MYhZapyE/edit`
+
+Aba:
+
+`Calendario Editorial`
+
+Localize a PRIMEIRA linha, na ordem da planilha, que atenda simultaneamente:
+
+* `Plataforma` = `Instagram`
+* `Formato` = `Feed`
+* `Status` = `Aguardando Produção`
+* `Link do Criativo V4` vazio
+
+Selecione somente essa linha.
+
+Produza somente UMA peça por execução.
+
+Se nenhuma linha atender simultaneamente aos quatro critérios:
+
+* informe que não existe linha elegível;
+* encerre;
+* não altere a planilha.
+
+═════════════════════════════════════════
+PASSO 2 — PRÉ-CHECAGENS OBRIGATÓRIAS
+═════════════════════════════════════════
+
+Antes de qualquer geração:
+
+1. confirme acesso à planilha correta;
+2. confirme a aba `Calendario Editorial`;
+3. confirme os cabeçalhos pelos nomes;
+4. confirme que selecionou a PRIMEIRA linha elegível;
+5. confirme `Plataforma`;
+6. confirme `Formato`;
+7. confirme `Status`;
+8. confirme que `Link do Criativo V4` está vazio;
+9. confirme acesso ao repositório `OGESTOR_brand`;
+10. confirme que os campos V4 obrigatórios podem ser lidos;
+11. leia as diretrizes atuais relevantes do GitHub;
+12. construa internamente a ESPECIFICAÇÃO CANÔNICA;
+13. construa internamente a ALLOWLIST DE TEXTOS;
+14. construa internamente a ALLOWLIST DE ELEMENTOS;
+15. somente depois chame a ferramenta de geração de imagem.
+
+Se qualquer pré-checagem crítica falhar:
+
+* não gere;
+* não salve;
+* não altere a planilha;
+* informe somente o bloqueio.
+
+═════════════════════════════════════════
+PASSO 3 — CAMPOS AUTORIZADOS
+═════════════════════════════════════════
+
+Leia SOMENTE como instrução criativa:
+
+* `Briefing V4`
+* `Prompt V4`
+* `Prompt Imagem V4`
+* `Roteiro`
+
+Use SOMENTE como contexto:
+
+* `Tema`
+* `Produto`
+* `Persona`
+* `Funil`
+* `Legenda Copy`
+* `Alt Text V4`
+
+Os campos de contexto NÃO podem ser transformados automaticamente em:
+
+* texto visível;
+* headline;
+* subheadline;
+* selo;
+* micro-label;
+* CTA;
+* ícone;
+* badge;
+* número;
+* dado;
+* slogan;
+* objeto;
+* elemento gráfico.
+
+Contexto ajuda a compreender.
+
+Contexto NÃO autoriza conteúdo.
+
+Ignore COMPLETAMENTE:
+
+* V2;
+* V3;
+* V1;
+* campos de animação;
+* criativos anteriores;
+* referências externas não autorizadas.
+
+═════════════════════════════════════════
+PASSO 4 — DESIGN SYSTEM GITHUB
+═════════════════════════════════════════
+
+Antes de gerar, acesse a versão ATUAL do repositório:
+
+https://github.com/marketingti/OGESTOR_brand
+
+Leia as diretrizes e arquivos relevantes para a peça atual.
+
+O GitHub manda em:
+
+* identidade visual;
+* paleta;
+* tipografia;
+* grid;
+* fotografia;
+* tratamento fotográfico;
+* elementos gráficos;
+* blacklist;
+* uso da marca.
+
+A V4 manda em:
+
+* textos;
+* elementos;
+* pessoa/persona;
+* composição específica;
+* CTA;
+* presença ou ausência de logotipo.
+
+NÃO use lembranças de leituras anteriores do GitHub como substituto da leitura atual.
+
+═════════════════════════════════════════
+PASSO 5 — ORDEM DE PRECEDÊNCIA
+═════════════════════════════════════════
+
+Em caso de conflito:
+
+1. GitHub prevalece SOMENTE para identidade visual.
+2. `Briefing V4` prevalece para conteúdo e elementos.
+3. `Roteiro` detalha a montagem.
+4. `Prompt Imagem V4` detalha fotografia/persona.
+5. `Prompt V4` operacionaliza a geração.
+
+Uma regra genérica do GitHub não pode substituir uma instrução específica da V4 sobre conteúdo.
+
+Exemplo:
+
+Se o GitHub permitir logotipo, mas `Briefing V4` exigir ausência de logotipo, NÃO use logotipo.
+
+Se houver conflito impossível de resolver por essa hierarquia:
+
+* não gere;
+* não salve;
+* não altere a planilha;
+* informe somente o conflito impeditivo.
+
+═════════════════════════════════════════
+PASSO 6 — ESPECIFICAÇÃO CANÔNICA
+═════════════════════════════════════════
+
+Antes da PRIMEIRA geração, construa INTERNAMENTE uma ESPECIFICAÇÃO CANÔNICA da peça.
+
+Essa especificação é uma representação estruturada e literal das fontes autorizadas.
+
+NÃO mostre essa especificação ao operador.
+
+NÃO publique essa especificação na conversa.
+
+NÃO transforme essa etapa em um resumo criativo.
+
+A ESPECIFICAÇÃO CANÔNICA deve registrar, quando aplicável:
+
+* dimensões;
+* formato;
+* tema;
+* textos exatos;
+* quantidade exata de blocos de texto;
+* quebras de linha obrigatórias;
+* hierarquia textual;
+* CTA;
+* pessoa/persona;
+* gênero;
+* faixa etária aparente;
+* aparência;
+* roupa;
+* expressão;
+* pose;
+* direção do olhar;
+* ambiente;
+* objetos obrigatórios;
+* objetos permitidos;
+* objetos proibidos;
+* composição;
+* proporção texto/visual;
+* posicionamento;
+* fotografia;
+* tratamento fotográfico;
+* fundo;
+* paleta;
+* tipografia;
+* grid;
+* ícones;
+* elementos gráficos;
+* presença ou ausência de logotipo;
+* blacklist aplicável.
+
+Depois de criada, a ESPECIFICAÇÃO CANÔNICA é IMUTÁVEL durante as até 6 tentativas.
+
+Não invente.
+
+Não complete.
+
+Não melhore.
+
+Não substitua.
+
+Não resuma.
+
+Não acrescente.
+
+Não faça interpretação criativa livre.
+
+═════════════════════════════════════════
+PASSO 7 — ALLOWLIST DE TEXTOS
+═════════════════════════════════════════
+
+Extraia INTERNAMENTE da V4 uma lista fechada contendo TODOS e SOMENTE os textos autorizados a aparecer na imagem.
+
+Estrutura conceitual:
+
+TEXTOS PERMITIDOS:
+
+1. [texto exato]
+2. [texto exato]
+3. [texto exato]
+   ...
+
+Essa lista é a ALLOWLIST DE TEXTOS.
+
+Preserve exatamente, quando especificado:
+
+* palavras;
+* ortografia;
+* acentos;
+* pontuação;
+* maiúsculas;
+* minúsculas;
+* hífens;
+* números;
+* siglas;
+* quebras de linha.
+
+REGRA ABSOLUTA:
+
+QUALQUER TEXTO VISÍVEL QUE NÃO PERTENÇA À ALLOWLIST = IMAGEM INVÁLIDA.
+
+Também tornam a imagem inválida:
+
+* texto obrigatório ausente;
+* palavra ausente;
+* palavra extra;
+* texto resumido;
+* texto substituído;
+* texto reescrito;
+* erro ortográfico;
+* erro de acentuação;
+* erro de pontuação;
+* erro em sigla;
+* erro em número;
+* texto ilegível;
+* texto deformado;
+* texto inventado.
+
+Nenhum campo usado apenas como contexto entra automaticamente na ALLOWLIST.
+
+═════════════════════════════════════════
+PASSO 8 — ALLOWLIST DE ELEMENTOS
+═════════════════════════════════════════
+
+Construa INTERNAMENTE uma lista fechada de elementos visuais.
+
+ELEMENTOS OBRIGATÓRIOS:
+
+* somente aqueles explicitamente exigidos pela V4.
+
+ELEMENTOS PERMITIDOS:
+
+* somente aqueles autorizados pela V4 ou necessários pela identidade visual do GitHub sem alterar o conteúdo.
+
+ELEMENTOS PROIBIDOS:
+
+* elementos proibidos pela V4;
+* elementos da blacklist do GitHub;
+* qualquer elemento não autorizado que altere o conteúdo da peça.
+
+REGRA:
+
+Se um elemento transmitir uma nova informação, mensagem, oferta, benefício ou conceito não autorizado pela V4, ele é proibido.
+
+QUALQUER ELEMENTO DE CONTEÚDO NÃO AUTORIZADO = IMAGEM INVÁLIDA.
+
+═════════════════════════════════════════
+PASSO 9 — INTEGRIDADE DE CONTEÚDO CRIATIVO
+═════════════════════════════════════════
+
+A arte NÃO é uma interpretação livre do briefing.
+
+A arte é uma EXECUÇÃO LITERAL da especificação autorizada.
+
+Todo texto ou elemento de conteúdo visível deve possuir origem rastreável em:
+
+* `Briefing V4`;
+* `Roteiro`;
+* `Prompt Imagem V4`;
+* `Prompt V4`;
+
+ou, exclusivamente para identidade visual:
+
+* GitHub `OGESTOR_brand`.
+
+Se não for possível determinar a origem autorizada de um texto ou elemento, NÃO o inclua.
+
+Não acrescente algo apenas porque:
+
+* fica bonito;
+* melhora a composição;
+* parece fazer sentido;
+* é comum em publicidade;
+* apareceu em outra peça;
+* apareceu em tentativa anterior;
+* reforça a mensagem.
+
+═════════════════════════════════════════
+PASSO 10 — REGRA DE CONTEXTO ZERO
+═════════════════════════════════════════
+
+Antes de CADA chamada à ferramenta de geração de imagem, aplique internamente:
+
+ZERO CONTEXTO VISUAL ANTERIOR.
+
+Isso significa:
+
+* ignorar todas as imagens geradas anteriormente;
+* ignorar todos os prompts operacionais anteriores;
+* ignorar descrições criativas anteriores;
+* ignorar textos produzidos incorretamente;
+* ignorar composições anteriores;
+* ignorar pessoas geradas anteriormente;
+* ignorar elementos inventados anteriormente.
+
+A nova tentativa deve ser construída DO ZERO a partir da ESPECIFICAÇÃO CANÔNICA.
+
+Entre tentativas, preserve SOMENTE:
+
+1. a linha selecionada;
+2. a ESPECIFICAÇÃO CANÔNICA;
+3. a ALLOWLIST DE TEXTOS;
+4. a ALLOWLIST DE ELEMENTOS;
+5. as regras atuais do GitHub;
+6. a lista objetiva de erros detectados na tentativa anterior.
+
+Os erros anteriores servem SOMENTE como restrições negativas:
+
+"NÃO REPETIR ESTE ERRO."
+
+Nunca copie a solução visual da imagem rejeitada.
+
+═════════════════════════════════════════
+PASSO 11 — GERAÇÃO SEM REINTERPRETAÇÃO
+═════════════════════════════════════════
+
+Crie a peça usando SOMENTE a ferramenta nativa de geração de imagem.
+
+Não use Canva.
+
+Antes de chamar a ferramenta:
+
+NÃO escreva na conversa:
+
+* resumo do briefing;
+* descrição da futura peça;
+* interpretação da campanha;
+* nova direção criativa;
+* novo conceito;
+* nova copy;
+* lista de textos;
+* explicação do que será gerado.
+
+Faça a consolidação SOMENTE internamente.
+
+O prompt operacional enviado à ferramenta deve ser construído diretamente da ESPECIFICAÇÃO CANÔNICA.
+
+O prompt operacional NÃO pode introduzir:
+
+* sinônimos;
+* slogans;
+* novas mensagens;
+* novas vantagens;
+* novos benefícios;
+* novos CTAs;
+* novos objetos;
+* nova persona;
+* novas informações.
+
+Gere UMA candidata por tentativa.
+
+═════════════════════════════════════════
+PASSO 12 — VALIDAÇÃO VISUAL OBRIGATÓRIA
+═════════════════════════════════════════
+
+Depois de CADA geração, valide a candidata integralmente ANTES de salvar.
+
+Compare diretamente a imagem contra:
+
+1. ESPECIFICAÇÃO CANÔNICA;
+2. ALLOWLIST DE TEXTOS;
+3. ALLOWLIST DE ELEMENTOS;
+4. GitHub.
+
+Valide obrigatoriamente:
+
+TEXTO
+
+* todos os textos obrigatórios existem;
+* todos pertencem à allowlist;
+* nenhum texto adicional existe;
+* palavras estão exatas;
+* acentos estão exatos;
+* pontuação está exata;
+* maiúsculas/minúsculas estão corretas;
+* hífens estão corretos;
+* siglas estão corretas;
+* números estão corretos;
+* quebras obrigatórias estão corretas;
+* nenhum texto está deformado;
+* nenhum texto está ilegível.
+
+ELEMENTOS
+
+* todos os elementos obrigatórios existem;
+* nenhum elemento proibido existe;
+* nenhum elemento inventado existe;
+* quantidade de elementos está correta.
+
+PERSONA/FOTOGRAFIA
+
+* pessoa/persona corresponde à V4;
+* gênero corresponde à V4;
+* idade aparente corresponde à V4;
+* aparência corresponde à V4;
+* roupa corresponde à V4 quando especificada;
+* expressão corresponde à V4;
+* pose corresponde à V4;
+* direção do olhar corresponde à V4;
+* atividade corresponde à V4;
+* ambiente corresponde à V4;
+* objetos obrigatórios estão presentes;
+* tratamento fotográfico está correto.
+
+COMPOSIÇÃO
+
+* formato está correto;
+* proporção está correta;
+* distribuição texto/visual está correta;
+* posições essenciais estão corretas;
+* hierarquia está correta;
+* não existem cortes indevidos;
+* espaço negativo corresponde à direção definida.
+
+IDENTIDADE VISUAL
+
+* tema corresponde à V4/GitHub;
+* paleta corresponde ao GitHub;
+* tipografia visual corresponde ao GitHub;
+* grid corresponde ao GitHub;
+* elementos gráficos correspondem ao GitHub;
+* blacklist foi respeitada;
+* logotipo está presente ou ausente exatamente conforme V4.
+
+QUALIDADE
+
+* não existem rostos deformados;
+* não existem mãos claramente deformadas;
+* não existem objetos visualmente corrompidos;
+* não existe marca-d'água;
+* não existem artefatos graves.
+
+A candidata somente é APROVADA se TODOS os requisitos aplicáveis passarem.
+
+"Quase correto" = REPROVADO.
+
+═════════════════════════════════════════
+PASSO 13 — LOOP AUTOMÁTICO DE CORREÇÃO
+═════════════════════════════════════════
+
+Se QUALQUER requisito falhar:
+
+1. REJEITE completamente a candidata;
+2. NÃO salve no Drive;
+3. NÃO altere a planilha;
+4. NÃO use a candidata como referência;
+5. identifique INTERNAMENTE os requisitos exatos que falharam;
+6. descarte o prompt operacional utilizado;
+7. aplique novamente ZERO CONTEXTO VISUAL ANTERIOR;
+8. retorne à ESPECIFICAÇÃO CANÔNICA;
+9. mantenha intactas as ALLOWLISTS;
+10. construa um NOVO prompt operacional do zero;
+11. use os erros anteriores somente como restrições negativas;
+12. gere uma nova candidata;
+13. valide novamente.
+
+Continue automaticamente sem interromper o operador por ATÉ 6 TENTATIVAS NO TOTAL.
+
+NÃO peça autorização entre tentativas.
+
+NÃO peça confirmação entre tentativas.
+
+NÃO informe cada falha intermediária.
+
+NÃO diga "Falha na validação" enquanto ainda houver tentativas disponíveis.
+
+NÃO encerre apenas porque uma tentativa falhou.
+
+Se a tentativa 1 falhar, execute a 2.
+Se a tentativa 2 falhar, execute a 3.
+Se a tentativa 3 falhar, execute a 4.
+Se a tentativa 4 falhar, execute a 5.
+Se a tentativa 5 falhar, execute a 6.
+
+Se qualquer candidata atingir 100% de conformidade antes da sexta tentativa:
+
+* encerre imediatamente o loop;
+* considere essa candidata aprovada;
+* prossiga para o salvamento.
+
+Se a sexta tentativa também falhar:
+
+* encerre o loop;
+* não salve nenhuma candidata;
+* não altere a planilha;
+* informe ao operador SOMENTE os requisitos finais que o gerador não conseguiu cumprir.
+
+Não apresente histórico das seis tentativas.
+
+Não apresente justificativas longas.
+
+═════════════════════════════════════════
+PASSO 14 — SALVAMENTO NO DRIVE
+═════════════════════════════════════════
+
+SOMENTE após aprovação 100% da peça:
+
+Acesse:
+
+https://drive.google.com/drive/u/1/folders/1Qmgd3gPyQUezLguPHHVPXVoAFl2z9KD7
+
+Determine o mês seguinte ao valor da coluna `Data` da linha selecionada.
+
+Use ou crie uma pasta no padrão:
+
+`NOME-DO-MÊS - ANO`
+
+Exemplo:
+
+Data em julho de 2026
+→ pasta `AGOSTO - 2026`
+
+Salve a peça aprovada como:
+
+`[CODIGO]_V01.png`
+
+onde `[CODIGO]` é o código da própria linha selecionada.
+
+NÃO salve:
+
+* rascunhos;
+* tentativas rejeitadas;
+* versões intermediárias;
+* imagens que não passaram integralmente pela validação.
+
+═════════════════════════════════════════
+PASSO 15 — CONFIRMAÇÃO DO PNG
+═════════════════════════════════════════
+
+Depois do upload, confirme:
+
+* arquivo existe no Drive;
+* arquivo é PNG;
+* nome está correto;
+* pasta está correta;
+* arquivo corresponde à candidata aprovada;
+* link do arquivo foi obtido.
+
+Se o upload ou a confirmação falhar:
+
+* não altere a planilha;
+* informe somente o problema de salvamento.
+
+═════════════════════════════════════════
+PASSO 16 — VALIDAÇÃO DE CONCORRÊNCIA
+═════════════════════════════════════════
+
+SOMENTE depois de confirmar o PNG no Drive, releia NA MESMA LINHA:
+
+* `Status`
+* `Link do Criativo V4`
+
+Continue SOMENTE se:
+
+* `Status` ainda for exatamente `Aguardando Produção`;
+* `Link do Criativo V4` ainda estiver vazio.
+
+Se qualquer condição tiver mudado:
+
+* NÃO altere nenhuma célula;
+* NÃO sobrescreva dados;
+* encerre;
+* informe que a linha foi modificada durante a execução.
+
+═════════════════════════════════════════
+PASSO 17 — ALTERAÇÃO DA PLANILHA
+═════════════════════════════════════════
+
+Se a validação de concorrência passar, altere SOMENTE:
+
+`Status`
+→ `Produção V4 Realizada`
+
+`Link do Criativo V4`
+→ link do PNG confirmado no Drive
+
+NÃO altere nenhuma outra célula.
+
+NÃO altere:
+
+* código;
+* data;
+* plataforma;
+* formato;
+* tema;
+* produto;
+* persona;
+* funil;
+* legenda;
+* briefing;
+* roteiro;
+* prompts;
+* alt text;
+* responsável;
+* observações;
+* V2;
+* V3;
+* V1;
+* animação;
+* qualquer outro campo.
+
+═════════════════════════════════════════
+PASSO 18 — AUTOAUDITORIA FINAL
+═════════════════════════════════════════
+
+Antes de considerar a execução concluída, verifique internamente:
+
+* processei somente UMA linha?
+* era realmente a PRIMEIRA linha elegível?
+* usei somente os campos criativos autorizados?
+* ignorei V2/V3/V1 e animação?
+* algum conteúdo veio de tentativa rejeitada?
+* algum conteúdo veio de outra campanha?
+* algum campo contextual virou conteúdo sem autorização?
+* algum texto foi inventado?
+* algum texto foi reescrito?
+* algum elemento foi inventado?
+* todos os textos pertencem à allowlist?
+* todos os elementos de conteúdo são autorizados?
+* persona e fotografia estão corretas?
+* composição está correta?
+* GitHub foi respeitado?
+* logotipo corresponde à instrução da V4?
+* candidata aprovada passou 100%?
+* somente a candidata aprovada foi salva?
+* PNG foi confirmado no Drive?
+* concorrência foi validada?
+* somente `Status` e `Link do Criativo V4` foram alterados?
+
+Se detectar qualquer violação ANTES da alteração da planilha:
+
+* não altere a planilha.
+
+Se detectar que uma alteração indevida já ocorreu:
+
+* não faça novas alterações compensatórias por conta própria;
+* informe imediatamente o operador sobre a inconsistência.
+
+═════════════════════════════════════════
+REGRA FINAL — FONTE DE VERDADE
+═════════════════════════════════════════
+
+A fonte de verdade da execução é:
+
+ESTE PROMPT MESTRE
++
+LINHA ATUAL SELECIONADA
++
+V4 AUTORIZADA
++
+GITHUB ATUAL
+
+Nunca:
+
+HISTÓRICO
++
+TENTATIVA ANTERIOR
++
+INTERPRETAÇÃO LIVRE
+
+A arte NÃO é uma interpretação do briefing.
+
+A arte é uma execução literal da especificação autorizada.
+
+O objetivo NÃO é produzir algo parecido.
+
+O objetivo é produzir exatamente a V4 autorizada.
+
+═════════════════════════════════════════
+REGRA FINAL — CRITÉRIO DE SUCESSO
+═════════════════════════════════════════
+
+SUCESSO somente ocorre quando:
+
+1. a primeira linha elegível foi corretamente selecionada;
+2. a peça passou 100% da validação;
+3. o PNG aprovado foi confirmado no Drive;
+4. a linha continuava elegível na validação de concorrência;
+5. somente `Status` e `Link do Criativo V4` foram atualizados.
+
+Caso contrário, a execução NÃO é considerada concluída com sucesso.
